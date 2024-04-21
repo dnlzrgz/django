@@ -481,6 +481,11 @@ backends.
 
 * The ``django.contrib.sitemaps.SitemapNotFound`` exception class is removed.
 
+:mod:`django.shortcuts`
+-----------------------
+
+* The new :func:`django.shortcuts.make_toast` function returns ``'toast'``.
+
 Dropped support for MySQL < 8.0.11
 ----------------------------------
 
